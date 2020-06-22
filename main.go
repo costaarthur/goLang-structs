@@ -149,10 +149,6 @@ func main() {
 
 	// this func and the intGrades need to be outside Main func
 
-	// func (g IntGrades) getSumGrades() int {
-	// 	return g.visualEffects + g.soundMixing + g.costumDesign + g.direction
-	// }
-
 	fiftyShadesOfGrey := IntNestedMovie{
 		name:            "Fifty Shades of Grey",
 		director:        "Sam Taylor-Johnson & James Foley",
