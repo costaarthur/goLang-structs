@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	importedstructs "struct-basics/structs"
+	"struct-basics/structs"
 )
 
 type IntGrades struct {
@@ -180,14 +180,14 @@ func main() {
 
 	// part 4: imported struct
 
-	backToTheFuture := importedstructs.ImpMovie{
+	backToTheFuture := structs.ImpMovie{
 		Name:            "Back to The Future",
 		Director:        "Robert Zemeckis",
 		DurationMinutes: 140,
 		Good:            true,
 	}
 
-	jack := importedstructs.ImpPerson{
+	jack := structs.ImpPerson{
 		FirstName: "Jack",
 		LastName:  "Shephard",
 		FullName: func(firstName string, lastName string) string {

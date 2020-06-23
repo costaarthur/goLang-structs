@@ -1,4 +1,4 @@
-package importedstructs
+package structs
 
 type ImpMovie struct {
 	Name, Director  string

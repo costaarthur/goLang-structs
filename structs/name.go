@@ -1,4 +1,4 @@
-package importedstructs
+package structs
 
 type FullNameType func(string, string) string
 
